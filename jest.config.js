@@ -3,5 +3,6 @@ module.exports = {
     '<rootDir>/apps/ang-nest',
     '<rootDir>/apps/api',
     '<rootDir>/libs/ui-components',
+    '<rootDir>/apps/nest-api-2',
   ],
 };

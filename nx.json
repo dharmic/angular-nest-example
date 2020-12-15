@@ -38,6 +38,9 @@
     },
     "ui-components": {
       "tags": []
+    },
+    "nest-api-2": {
+      "tags": []
     }
   }
 }
