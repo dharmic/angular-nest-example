@@ -1,8 +1,9 @@
 import { Injectable } from '@nestjs/common';
+import { Message } from '@dp/api-interfaces';
 
 @Injectable()
 export class AppService {
-  getData(): { message: string } {
-    return { message: 'Welcome to nest-api-2!' };
+  getData(): Message {
+    return { message: 'Welcome to api!' };
   }
 }
