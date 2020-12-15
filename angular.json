@@ -263,6 +263,31 @@
           }
         }
       }
+    },
+    "shared-nest-library": {
+      "root": "libs/shared-nest-library",
+      "sourceRoot": "libs/shared-nest-library/src",
+      "projectType": "library",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/shared-nest-library/tsconfig.lib.json",
+              "libs/shared-nest-library/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/shared-nest-library/**/*"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/shared-nest-library"],
+          "options": {
+            "jestConfig": "libs/shared-nest-library/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
     }
   },
   "cli": {

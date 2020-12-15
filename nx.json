@@ -41,6 +41,9 @@
     },
     "nest-api-2": {
       "tags": []
+    },
+    "shared-nest-library": {
+      "tags": []
     }
   }
 }

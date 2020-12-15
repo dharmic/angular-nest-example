@@ -16,7 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "@dp/api-interfaces": ["libs/api-interfaces/src/index.ts"],
-      "@dp/ui-components": ["libs/ui-components/src/index.ts"]
+      "@dp/ui-components": ["libs/ui-components/src/index.ts"],
+      "@dp/shared-nest-library": ["libs/shared-nest-library/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
